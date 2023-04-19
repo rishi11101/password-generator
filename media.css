@@ -1,0 +1,65 @@
+@media screen and (min-width:1290px) and (max-width:1570px){
+    .main-container{
+        width: 30vw;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1290px){
+    .main-container{
+        width: 38vw;
+    }
+}
+@media screen and (min-width:900px) and (max-width:1024px){
+    .main-container{
+        width: 42vw;
+    }
+}
+
+/* ==================MOBILE============== */
+
+@media screen and (max-width:450px){
+
+    .main-container{
+        width: 91vw;
+        height: 100vh;
+    }
+
+    .container{
+        padding: 1.5rem;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .password-length-container p:nth-child(1){
+        font-size: 1.3rem;
+    }
+    
+    .password-length-container p:nth-child(2){
+        font-size: 1.3rem;
+    }
+
+    .checkboxes label{
+        font-size: 1.13rem;
+    }
+
+    .strength-container p{
+        font-size: 1.3rem;
+    }
+
+    .generate-btn{
+        font-size: 1.15rem;
+    }
+
+    .slider{
+        height: 0.6rem;
+    }
+    .slider::-webkit-slider-thumb{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .slider::-moz-range-thumb{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+}
